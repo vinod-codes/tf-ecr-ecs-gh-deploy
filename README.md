@@ -29,19 +29,19 @@ By the end of this guide, you'll have a fully automated **CI/CD pipeline** that:
 
 ```sh
 TF-ECR-ECS-GH-Deploy/
-¦-- .github/
-¦   +-- workflows/        # GitHub Actions workflows
-¦       +-- apply.yml     # Workflow to apply Terraform changes
-¦       +-- destroy.yml   # Workflow to destroy Terraform resources
-¦       +-- workflow.yml  # Main CI/CD workflow
-¦
-¦-- terraform/            # Terraform configurations for AWS resources
-¦
-¦-- .dockerignore         # Exclude unnecessary files from Docker builds
-¦-- app.py                # Python application (Flask/Django/FastAPI)
-¦-- Dockerfile            # Docker configuration for building the application
-¦-- README.md             # Project documentation
-¦-- requirements.txt      # Python dependencies for the application
+Â¦-- .github/
+Â¦   +-- workflows/        # GitHub Actions workflows
+Â¦       +-- apply.yml     # Workflow to apply Terraform changes
+Â¦       +-- destroy.yml   # Workflow to destroy Terraform resources
+Â¦       +-- workflow.yml  # Main CI/CD workflow
+Â¦
+Â¦-- terraform/            # Terraform configurations for AWS resources
+Â¦
+Â¦-- .dockerignore         # Exclude unnecessary files from Docker builds
+Â¦-- app.py                # Python application (Flask/Django/FastAPI)
+Â¦-- Dockerfile            # Docker configuration for building the application
+Â¦-- README.md             # Project documentation
+Â¦-- requirements.txt      # Python dependencies for the application
 ```
 
 ---
@@ -219,39 +219,10 @@ curl http://your-ecs-service-url
 
 ## ?? **Conclusion**  
 
-?? **You’ve successfully deployed a Python app to AWS ECS using GitHub Actions & Terraform!**  
+?? **Youâ€™ve successfully deployed a Python app to AWS ECS using GitHub Actions & Terraform!**  
 
 ? **Fully automated CI/CD pipeline**  
 ? **Scalable & secure AWS infrastructure**  
 ? **Seamless GitHub Actions integration**  
 
 ---
-
-## **? Hit the Star!**  
-
-If you find this repository helpful and plan to use it for learning, please consider giving it a star ?. Your support motivates me to keep improving and adding more valuable content! ??  
-
----
-
-## ??? **Author & Community**  
-
-This project is crafted with passion by **[Harshhaa](https://github.com/Vinod)** ??.  
-
-I’d love to hear your feedback! Feel free to open an issue, suggest improvements, or just drop by for a discussion. Let’s build a strong DevOps community together!  
-
----
-
-## ?? **Let's Connect!**  
-
-Stay connected and explore more DevOps content with me:  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harshhaa-vardhan-reddy)  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vinod)  [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/prodevopsguy)  [![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/Vinod)  [![Hashnode](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://hashnode.com/@prodevopsguy)  
-
----
-
-## ?? **Stay Updated!**  
-
-Want to stay up to date with the latest DevOps trends, best practices, and project updates? Follow me on my blogs and social channels!  
-
-![Follow Me](https://imgur.com/2j7GSPs.png)
-Starting updates for 2025-09-03 at 09:28 IST
